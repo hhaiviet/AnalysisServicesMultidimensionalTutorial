@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AnalysisServicesMultidimensionalTutorial", "AnalysisServicesMultidimensionalTutorial\AnalysisServicesMultidimensionalTutorial.dwproj", "{4EC7D1E2-1F64-459D-B02C-09ECD024E061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC7D1E2-1F64-459D-B02C-09ECD024E061}.Development|Default.ActiveCfg = Development
+		{4EC7D1E2-1F64-459D-B02C-09ECD024E061}.Development|Default.Build.0 = Development
+		{4EC7D1E2-1F64-459D-B02C-09ECD024E061}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388C3C57-37C3-4A89-BDC6-D8D1625BB3A2}
+	EndGlobalSection
+EndGlobal
