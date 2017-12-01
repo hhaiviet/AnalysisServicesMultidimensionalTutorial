@@ -6,10 +6,31 @@
     <Name>AnalysisServicesMultidimensionalTutorial.database</Name>
     <FullPath>AnalysisServicesMultidimensionalTutorial.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Adventureworks DW2016CTP3.ds</Name>
+      <FullPath>Adventureworks DW2016CTP3.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Adventureworks DW2016CTP3</Id>
+            <Name>Adventureworks DW2016CTP3</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureworksDW2016CTP3</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Adventureworks DW2016CTP3</Id>
+            <Name>Adventureworks DW2016CTP3</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
